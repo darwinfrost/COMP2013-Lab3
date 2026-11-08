@@ -7,10 +7,14 @@ export interface TodoCardProps
     title: string
     checked: boolean
 }
+export interface TodoCardFunction extends TodoCardProps {
+  handletoCheck: (e:ChangeEvent<HTMLInputElement>,id:string)=>void;
+}
 
 export interface TodosContainerProps
 {
     todosList: TodoCardProps[];
+    handleTodoCheck: (e: ChangeEvent<HTMLInputElement>,id:string) => void;
 }
 
 export default function TodoApp()
@@ -64,7 +68,7 @@ setTodosList((prevList) => prevList.map((entry) => entry.id === id
   <div>
     <h1>Todo List App</h1>
     <FormComponent {...todo} handleFormOnChange={handleFormOnChange} handleOnSubmit={handleOnSubmit}/>
-    <TodosContainer todosList={todosList}/>
+    <TodosContainer todosList={todosList} handleTodoCheck={handleTodoCheck}/>
   </div>
   );
 }

@@ -3,9 +3,9 @@
 //2 a button for deleting this todo entry
 //3 a button to edit this todo entry
 //4 a checkbox that will be used to check the entry if completed
-import type { TodoCardProps} from './ToDoApp';
+import type { TodoCardFunction } from './ToDoApp';
 
-export default function TodoCard({checked, title}: TodoCardProps)
+export default function TodoCard({checked, title}: TodoCardFunction)
 {
     return  (
     <div>
