@@ -9,7 +9,7 @@
 <p>You write this incredibly quickly. and it is extremely difficult to follow along during your lectures.</p>
 <p>Even watching back the recording I need to pause and reverse constantly.</p>
 <p>Many times when you introduce a new keyword or concept that we may have never seen before, you type it instantly with a shortcut and immediately scroll away, leaving us with no chance to type it ourselves.</p>
-<p>Many students including me cannot preform the shortcuts you do. Evin if I type over half of a word the program should know, visual studio code does not give me an autocomplete option with the tab key.</p>
+<p>Many students including me cannot preform the shortcuts you do. Even if I type over half of a word the program should know, visual studio code does not give me an autocomplete option with the tab key.</p>
 <p>It also has never written the code to import something I'm using automatically. Yours also seems to add certain brackets on it's own when creating functions that ours does not.</p>
 <p>You use these tools we do not know how to access constantly, and it makes it very hard to do what you do. and if we slip up anywhere it's next to impossible to find out where we've gone whrong without falling behind by 5 minutes or just waiting for the next break / end of class to ask you.</p>
 <p>And most of the time we can't stay after class because we have other classes after yours.</p>
